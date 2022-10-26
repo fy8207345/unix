@@ -7,4 +7,4 @@ include_directories(.)
 include_directories(headers)
 
 add_executable(projects
-        atomic.readwrite.c apue.error.c)
+        fork-pipe.c)
